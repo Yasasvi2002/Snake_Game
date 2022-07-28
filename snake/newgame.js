@@ -1,8 +1,8 @@
 let dx=1,dy=0,fx=35,fy=25;
 let xsnake=[25,24,0],ysnake=[25,25,25];
 let last=0,speed=5,xprev=0,yprev=0,score=0,slength=3,flag=0,newspeed=speed;
-let gmaeover=new Audio("/images/gameover.wav"),bite=new Audio("/images/bite.mp3"),transition=new Audio("/images/key1.wav");
-let move=new Audio("/images/move.mp3");    
+let gmaeover=new Audio("/snake/images/gameover.wav"),bite=new Audio("/snake/images/bite.mp3"),transition=new Audio("/snake/images/key1.wav");
+let move=new Audio("/snake/images/move.mp3");    
 fx=Math.round(7+30*(Math.random()));
     fy=Math.round(7+30*(Math.random()));
     x=Math.round(7+25*(Math.random()));

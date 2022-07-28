@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Edu SA Beginner';
+}
+
+#bgimg {
+    display:flex;
+    justify-content: center;
+ 
+}
+#bgimg img{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    color: white;
+    height: 653px;;
+    width:70%;
+    font-size: 24px;
+    
+}
+h1{
+    position:absolute;
+    top: 253px;
+    left: 158px;
+    font-size: 54px;
+}
+.container li{
+    list-style:circle ;
+}
+.container a{
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-shadow: 1px;
+    color: white;
+    
+}
+.container a:hover{
+    color:red;
+}
+#box{
+    position:absolute;
+    display: inline-block;
+    height:30%;
+    width:34%;
+    border:2px solid red;
+    top: 227px;
+    left: 34%;
+    visibility: hidden;
+}

@@ -1,5 +1,7 @@
 ﻿# Snake_Game
 
+Check out the raw file for better experiance
+
 information about the different folders in this project:
 
 snake: it has all the sources used in making this project.

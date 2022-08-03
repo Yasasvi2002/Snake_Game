@@ -12,7 +12,7 @@ snake: it has all the sources used in making this project.
   inst.css: it is the css file to design instructions page linked with previous html file.(external css file)
   newgame.html: it is html document for the main game which is linked with newgame.js && bg.css.
   bg.css: it is external css file to design the newgame.html. 
-  newgame.js: it is a java script file that consists of Main functions of game such as to display snakes head and body,to move snake,to make changes when it eats food,to               run new game when snake collides are present here.  
+  newgame.js: it is a java script file that consists of Main functions of game such as to display snakes head and body,to move snake,to make changes when it eats food,to run new game when snake collides are present here.  
   
  images of project:
  welcome page:

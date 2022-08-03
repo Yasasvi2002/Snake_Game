@@ -57,7 +57,7 @@ function gameEngine(){
         y=Math.round(7+25*(Math.random()));
         xsnake[0]=x;ysnake[0]=y;
         xsnake[1]=x-1;ysnake[1]=y;xsnake[2]=x-2;ysnake[2]=y;slength=3;
-            alert("GAME OVER PRESS OK TO CONTINUE");
+            alert("GAME OVER PRESS "Enter" or OK TO CONTINUE");
             
     }
 

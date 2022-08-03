@@ -1,6 +1,6 @@
 ﻿# Snake_Game
 
-Check out the raw file for better experiance
+Check out the raw file for better understanding about folders
 
 information about the different folders in this project:
 

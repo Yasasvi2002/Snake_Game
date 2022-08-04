@@ -123,19 +123,36 @@ window.requestAnimationFrame(gameloop);
 window.addEventListener('keydown',function (e){
     if(e.key=='ArrowUp'||e.key=='w'){
         transition.play();
-        dx=0;dy=-1; 
+        if(dx==0 && dy==1){
+
+        }
+        else{
+        dx=0;dy=-1;
+        } 
     }
     else if(e.key=='ArrowDown'||e.key=='s'){
         transition.play();
-        dx=0;dy=1;
+        if(dx==0 && dy==-1){
+
+        }
+        else{
+        dx=0;dy=1;}
     }
     else if(e.key=='ArrowRight'||e.key=='d'){
         transition.play();
-        dx=1;dy=0;
+        if(dx==-1 && dy==0){
+
+        }
+        else{
+        dx=1;dy=0;}
     }
     else if(e.key=='ArrowLeft'||e.key=='a'){
         transition.play();
-        dx=-1;dy=0;
+        if(dx==1 && dy==0){
+
+        }
+        else{
+        dx=-1;dy=0;}
     }
     else if(e.key=='.'){
         transition.play();
